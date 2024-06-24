@@ -15,8 +15,6 @@ To evaluate Whisper's performance on Korean medical data, medical data was downl
 https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=208
 
 The total number of usable data is 216,581, and the json file contains labeltext, gender, dialect, age, region, sampling rate, qualitystatus, etc.
-This data is uploaded to the shared drive below.
-https://drive.google.com/drive/folders/1_y2RXXAHrF_daaRnJ4ESPD3t8IWLiEAD?usp=drive_link
 
 ### Data extraction
 To reflect the properties of the entire data, training, validation, and test data were extracted equal to the ratio of dialect, gender, and age of the entire data. It was executed with "medical data_preprocessing.ipynb" and "medical data_data extracting.ipynb"
